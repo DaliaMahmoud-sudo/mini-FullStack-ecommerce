@@ -65,7 +65,7 @@
   </div>
 </section>
 
-<!-- SIMPLE CTA FORM (REQUIRED FOR ASSESSMENT) -->
+<!-- ADD PRODUCT FORM (REACTIVE FORMS) -->
 <section class="py-16 px-6 bg-white">
   <div class="max-w-2xl mx-auto">
 
@@ -73,21 +73,20 @@
       Add New Product
     </h2>
 
-    <form #productForm="ngForm" (ngSubmit)="submitProduct(productForm)" class="space-y-4">
+    <form [formGroup]="addProductForm"
+          (ngSubmit)="submitProduct()"
+          class="space-y-4">
 
       <!-- NAME -->
       <div>
         <input
           type="text"
-          name="name"
-          [(ngModel)]="newProduct.name"
-          required
-          minlength="3"
+          formControlName="name"
           placeholder="Product Name"
           class="w-full border p-3 rounded-xl">
 
-        @if (productForm.submitted && !newProduct.name) {
-          <p class="text-red-500 text-sm">Name is required</p>
+        @if (addProductForm.get('name')?.touched && addProductForm.get('name')?.invalid) {
+          <p class="text-red-500 text-sm">Name must be at least 3 characters</p>
         }
       </div>
 
@@ -95,14 +94,11 @@
       <div>
         <input
           type="number"
-          name="price"
-          [(ngModel)]="newProduct.price"
-          required
-          min="1"
+          formControlName="price"
           placeholder="Price"
           class="w-full border p-3 rounded-xl">
 
-        @if (productForm.submitted && newProduct.price <= 0) {
+        @if (addProductForm.get('price')?.touched && addProductForm.get('price')?.invalid) {
           <p class="text-red-500 text-sm">Price must be greater than 0</p>
         }
       </div>
@@ -111,14 +107,11 @@
       <div>
         <input
           type="number"
-          name="quantity"
-          [(ngModel)]="newProduct.quantity"
-          required
-          min="0"
+          formControlName="quantity"
           placeholder="Quantity"
           class="w-full border p-3 rounded-xl">
 
-        @if (productForm.submitted && newProduct.quantity < 0) {
+        @if (addProductForm.get('quantity')?.touched && addProductForm.get('quantity')?.invalid) {
           <p class="text-red-500 text-sm">Quantity cannot be negative</p>
         }
       </div>

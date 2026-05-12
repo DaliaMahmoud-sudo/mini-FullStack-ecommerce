@@ -1,3 +1,4 @@
+<app-navbar [isOrderPage]="true"></app-navbar>
 <div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
 
   <!-- ORDERS LIST -->
@@ -41,7 +42,7 @@
         </div>
 
         <p><b>Customer:</b> {{ selectedOrder.customerName }}</p>
-        <p><b>Date:</b> {{ selectedOrder.orderDate  }}</p>
+        <p><b>Date:</b> {{ selectedOrder.orderDate |date:'shortTime' }}</p>
 
         <hr class="my-4">
 

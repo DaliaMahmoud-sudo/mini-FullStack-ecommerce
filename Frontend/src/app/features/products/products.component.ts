@@ -33,14 +33,7 @@ export class ProductsComponent implements OnInit {
   quantity: number = 1;
   showOrderModal: boolean = false;
 
-  // PRODUCT
-  newProduct: Product = {
-    id: 0,
-    name: '',
-    price: 0,
-    quantity: 0
-  };
-  showProductModal: boolean = false;
+ 
 
   ngOnInit() {
     this.loadProducts();
@@ -103,38 +96,9 @@ export class ProductsComponent implements OnInit {
   });
 }
 
-  // ================= PRODUCT =================
-
-  openProductModal() {
-    this.newProduct = {
-      id: 0,
-      name: '',
-      price: 0,
-      quantity: 0
-    };
-
-    this.showProductModal = true;
-  }
-
-  closeProductModal() {
-    this.showProductModal = false;
-  }
-
-  submitProduct() {
-
-    this.productsService.addProduct(this.newProduct).subscribe({
-      next: () => {
-        alert('Product Created Successfully');
-        this.showProductModal = false;
-        this.loadProducts();
-      },
-      error: (err) => console.log(err)
-    });
-  }
-
   // ================= UTIL =================
 
   isOrderPage(): boolean {
-    return this.router.url.includes('/feed');
+    return this.router.url.includes('/orders');
   }
 }

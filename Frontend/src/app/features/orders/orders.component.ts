@@ -1,9 +1,10 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { OrdersService } from '../../core/services/orders.service';
-
+import { NavbarComponent } from "../../layouts/main-layout/components/navbar/navbar.component";
+import { DatePipe } from '@angular/common';
 @Component({
   selector: 'app-orders',
-  imports: [],
+  imports: [NavbarComponent,DatePipe],
   templateUrl: './orders.component.html',
   styleUrl: './orders.component.css',
 })
@@ -32,4 +33,6 @@ export class OrdersComponent implements OnInit {
   closeDetails() {
     this.selectedOrder = null;
   }
+
+ 
 }
