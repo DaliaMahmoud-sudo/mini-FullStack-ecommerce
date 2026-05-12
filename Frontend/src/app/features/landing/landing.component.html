@@ -1,0 +1,138 @@
+<!-- HERO SECTION -->
+<section class="bg-slate-900 text-white py-20 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+      Mini E-Commerce Platform
+    </h1>
+
+    <p class="text-slate-300 text-lg mb-8">
+      Browse products, place orders, and manage everything in one place.
+    </p>
+
+    <div class="flex justify-center gap-4">
+      <a routerLink="/products"
+         class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-xl font-semibold">
+        View Products
+      </a>
+
+      <a routerLink="/orders"
+         class="bg-white text-slate-900 px-6 py-3 rounded-xl font-semibold">
+        View Orders
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRODUCTS PREVIEW -->
+<section class="py-16 px-6 bg-slate-100">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-3xl font-bold mb-10 text-center">
+      Featured Products
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      @for (product of products(); track product.id) {
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+
+          <h3 class="text-xl font-bold mb-2">
+            {{ product.name }}
+          </h3>
+
+          <p class="text-blue-600 font-bold text-lg">
+            ${{ product.price }}
+          </p>
+
+          <p class="text-sm text-gray-500 mt-2">
+            Stock: {{ product.quantity }}
+          </p>
+
+        </div>
+      }
+
+    </div>
+
+    <div class="text-center mt-10">
+      <a routerLink="/products"
+         class="text-blue-600 font-semibold hover:underline">
+        View all products →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- SIMPLE CTA FORM (REQUIRED FOR ASSESSMENT) -->
+<section class="py-16 px-6 bg-white">
+  <div class="max-w-2xl mx-auto">
+
+    <h2 class="text-3xl font-bold mb-6 text-center">
+      Add New Product
+    </h2>
+
+    <form #productForm="ngForm" (ngSubmit)="submitProduct(productForm)" class="space-y-4">
+
+      <!-- NAME -->
+      <div>
+        <input
+          type="text"
+          name="name"
+          [(ngModel)]="newProduct.name"
+          required
+          minlength="3"
+          placeholder="Product Name"
+          class="w-full border p-3 rounded-xl">
+
+        @if (productForm.submitted && !newProduct.name) {
+          <p class="text-red-500 text-sm">Name is required</p>
+        }
+      </div>
+
+      <!-- PRICE -->
+      <div>
+        <input
+          type="number"
+          name="price"
+          [(ngModel)]="newProduct.price"
+          required
+          min="1"
+          placeholder="Price"
+          class="w-full border p-3 rounded-xl">
+
+        @if (productForm.submitted && newProduct.price <= 0) {
+          <p class="text-red-500 text-sm">Price must be greater than 0</p>
+        }
+      </div>
+
+      <!-- QUANTITY -->
+      <div>
+        <input
+          type="number"
+          name="quantity"
+          [(ngModel)]="newProduct.quantity"
+          required
+          min="0"
+          placeholder="Quantity"
+          class="w-full border p-3 rounded-xl">
+
+        @if (productForm.submitted && newProduct.quantity < 0) {
+          <p class="text-red-500 text-sm">Quantity cannot be negative</p>
+        }
+      </div>
+
+      <!-- BUTTON -->
+      <button
+        type="submit"
+        class="w-full bg-slate-900 text-white py-3 rounded-xl font-semibold hover:bg-slate-800">
+
+        Add Product
+
+      </button>
+
+    </form>
+
+  </div>
+</section>

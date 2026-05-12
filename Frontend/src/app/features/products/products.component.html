@@ -1,0 +1,74 @@
+<app-navbar [isOrderPage]="isOrderPage()" (createProduct)="openProductModal()">
+</app-navbar>
+
+<main class="min-h-screen bg-slate-100 py-10 px-6">
+  <div class="max-w-7xl mx-auto">
+    <!-- Product Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      @for (product of products(); track product.id) {
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden border border-slate-200">
+        <div class="p-6 flex flex-col h-full">
+          <div class="flex-1">
+            <h3 class="text-xl font-bold text-slate-800 mb-4">{{ product.name }}</h3>
+            <div class="space-y-2">
+              <p class="text-2xl font-bold text-blue-600">${{ product.price }}</p>
+              <p class="font-medium" [ngClass]="product.quantity > 0 ? 'text-green-600' : 'text-red-500'">
+                {{ product.quantity > 0 ? 'In Stock: ' + product.quantity : 'Out of Stock' }}
+              </p>
+            </div>
+          </div>
+          <button class="mt-6 w-full py-3 rounded-xl font-semibold transition"
+            [disabled]="product.quantity === 0"
+            [ngClass]="product.quantity > 0 ? 'bg-slate-900 hover:bg-slate-800 text-white cursor-pointer' : 'bg-slate-300 text-slate-500 cursor-not-allowed'"
+            (click)="openOrderModal(product)">
+            Order This Item
+          </button>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+
+  <!-- ORDER MODAL -->
+  @if (showOrderModal) {
+  <div class="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
+    <div class="bg-white p-8 rounded-2xl w-[450px] shadow-2xl relative">
+      <!-- Close Button -->
+      <button (click)="closeOrderModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-2xl font-bold transition">&times;</button>
+      
+      <h2 class="text-2xl font-bold mb-6 text-slate-800">Create Order</h2>
+      
+      <label class="block text-sm font-semibold text-slate-600 mb-2">Customer Name</label>
+      <input type="text" placeholder="Enter name..." [(ngModel)]="customerName" class="w-full border border-slate-200 p-3 rounded-xl mb-4 focus:ring-2 focus:ring-blue-500 outline-none">
+
+      <label class="block text-sm font-semibold text-slate-600 mb-2">Quantity</label>
+      <input type="number" min="1" [(ngModel)]="quantity" class="w-full border border-slate-200 p-3 rounded-xl mb-6 focus:ring-2 focus:ring-blue-500 outline-none">
+
+      <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-bold shadow-lg transition transform active:scale-95" (click)="submitOrder()">
+        Confirm Order
+      </button>
+    </div>
+  </div>
+  }
+
+  <!-- NEW PRODUCT MODAL (Added this missing block) -->
+  @if (showProductModal) {
+  <div class="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
+    <div class="bg-white p-8 rounded-2xl w-[450px] shadow-2xl relative">
+      <button (click)="closeProductModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-2xl font-bold transition">&times;</button>
+      
+      <h2 class="text-2xl font-bold mb-6 text-slate-800">Add New Product</h2>
+      
+      <input type="text" placeholder="Product Name" [(ngModel)]="newProduct.name" class="w-full border border-slate-200 p-3 rounded-xl mb-4 outline-none">
+            <label class="block text-sm font-semibold text-slate-600 mb-2">Price</label>
+      <input type="number" min="1" [(ngModel)]="newProduct.price" class="w-full border border-slate-200 p-3 rounded-xl mb-4 outline-none">
+         <label class="block text-sm font-semibold text-slate-600 mb-2">Initial Stock</label>
+      <input type="number" min="1" [(ngModel)]="quantity" class="w-full border border-slate-200 p-3 rounded-xl mb-6 outline-none">
+
+      <button class="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-bold transition" (click)="submitProduct()">
+        Save Product
+      </button>
+    </div>
+  </div>
+  }
+</main>

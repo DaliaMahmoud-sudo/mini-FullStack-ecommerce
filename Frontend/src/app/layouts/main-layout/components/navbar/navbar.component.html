@@ -1,0 +1,25 @@
+<header class="bg-slate-900 text-white px-8 py-5 shadow-md">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+    <h1 class="text-3xl font-bold tracking-tight cursor-pointer"
+        routerLink="/feed">
+      Mini E-Commerce
+    </h1>
+
+    <nav class="flex gap-3">
+
+     
+
+    
+
+        <button
+          class="bg-white text-slate-800 hover:bg-slate-100 transition px-5 py-2.5 rounded-xl font-medium shadow"
+          (click)="createProduct.emit()">
+          + Create Product
+        </button>
+
+    
+
+    </nav>
+  </div>
+</header>

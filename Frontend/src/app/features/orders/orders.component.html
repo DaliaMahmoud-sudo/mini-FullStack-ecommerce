@@ -1,0 +1,80 @@
+<div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+  <!-- ORDERS LIST -->
+  <div class="md:col-span-1 space-y-3">
+    <h2 class="text-2xl font-bold mb-4">Orders</h2>
+
+    @for (order of orders(); track order.id) {
+      <div
+        class="p-4 bg-white rounded-xl shadow cursor-pointer hover:bg-slate-50"
+        (click)="selectOrder(order)">
+
+        <p class="font-semibold">Order #{{ order.id }}</p>
+        <p class="text-sm text-gray-600">
+          {{ order.customerName }}
+        </p>
+
+        <p class="text-sm text-gray-500">
+          Total: {{ order.finalTotal }}$
+        </p>
+      </div>
+    }
+  </div>
+
+  <!-- ORDER DETAILS -->
+  <div class="md:col-span-2">
+
+    @if (selectedOrder) {
+
+      <div class="bg-white p-6 rounded-xl shadow">
+
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-2xl font-bold">
+            Order #{{ selectedOrder.id }}
+          </h2>
+
+          <button
+            class="text-red-500"
+            (click)="closeDetails()">
+            Close
+          </button>
+        </div>
+
+        <p><b>Customer:</b> {{ selectedOrder.customerName }}</p>
+        <p><b>Date:</b> {{ selectedOrder.orderDate  }}</p>
+
+        <hr class="my-4">
+
+        <h3 class="font-semibold mb-2">Items</h3>
+
+        @for (item of selectedOrder.items; track item.id) {
+          <div class="border p-3 rounded-lg mb-2">
+
+            <p><b>Product:</b> {{ item.product.name }}</p>
+            <p><b>Price:</b> {{ item.unitPrice }}</p>
+            <p><b>Quantity:</b> {{ item.quantity }}</p>
+
+          </div>
+        }
+
+        <hr class="my-4">
+
+        <p><b>Subtotal:</b> {{ selectedOrder.subtotal }}</p>
+        <p><b>Discount:</b> {{ selectedOrder.discountAmount }}</p>
+        <p class="text-lg font-bold">
+          Final Total: {{ selectedOrder.finalTotal }}
+        </p>
+
+      </div>
+
+    } @else {
+
+      <div class="text-gray-500 text-center mt-20">
+        Select an order to view details
+      </div>
+
+    }
+
+  </div>
+
+</div>

@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|solutionrelative:e-commerce.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCDAD5FB-CE37-43C0-8B44-9A4163D244AD}|E-Commerce.Repository\\E-Commerce.Repository.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDAD5FB-CE37-43C0-8B44-9A4163D244AD}|E-Commerce.Repository\\E-Commerce.Repository.csproj|solutionrelative:e-commerce.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D833E5-A2FB-4946-9430-4948078B9905}|E-Commerce.Core\\E-Commerce.Core.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3D833E5-A2FB-4946-9430-4948078B9905}|E-Commerce.Core\\E-Commerce.Core.csproj|solutionrelative:e-commerce.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|solutionrelative:e-commerce.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|solutionrelative:e-commerce.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|solutionrelative:e-commerce.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|solutionrelative:e-commerce.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D833E5-A2FB-4946-9430-4948078B9905}|E-Commerce.Core\\E-Commerce.Core.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3D833E5-A2FB-4946-9430-4948078B9905}|E-Commerce.Core\\E-Commerce.Core.csproj|solutionrelative:e-commerce.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D833E5-A2FB-4946-9430-4948078B9905}|E-Commerce.Core\\E-Commerce.Core.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3D833E5-A2FB-4946-9430-4948078B9905}|E-Commerce.Core\\E-Commerce.Core.csproj|solutionrelative:e-commerce.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.apis\\dtos\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|solutionrelative:e-commerce.apis\\dtos\\createorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\course\\Talabat.Solution\\Talabat.APIs\\DTOs\\ProductToReturnDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|d:\\iexperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\e-commerce.apis\\e-commerce.apis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00932404-E158-4C31-8A48-6297D4C588E3}|E-Commerce.APIs\\E-Commerce.APIs.csproj|solutionrelative:e-commerce.apis\\e-commerce.apis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Program.cs",
+              "RelativeDocumentMoniker": "E-Commerce.APIs\\Program.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Program.cs",
+              "RelativeToolTip": "E-Commerce.APIs\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T17:59:21.548Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "E-Commerce.Core\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "E-Commerce.Core\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:17:19.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "E-Commerce.APIs\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Properties\\launchSettings.json",
+              "RelativeToolTip": "E-Commerce.APIs\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-11T13:24:42.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "E-Commerce.APIs\\appsettings.json",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\appsettings.json",
+              "RelativeToolTip": "E-Commerce.APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-11T13:23:15.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "E-Commerce.Core\\Entities\\Order.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\Entities\\Order.cs",
+              "RelativeToolTip": "E-Commerce.Core\\Entities\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:34:41.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "E-Commerce.Core\\Entities\\Product.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\Entities\\Product.cs",
+              "RelativeToolTip": "E-Commerce.Core\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:34:37.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateOrderRequestDTO.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\DTOs\\CreateOrderRequestDTO.cs",
+              "RelativeDocumentMoniker": "E-Commerce.APIs\\DTOs\\CreateOrderRequestDTO.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\DTOs\\CreateOrderRequestDTO.cs",
+              "RelativeToolTip": "E-Commerce.APIs\\DTOs\\CreateOrderRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:21:44.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "E-Commerce.APIs.csproj",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
+              "RelativeDocumentMoniker": "E-Commerce.APIs\\E-Commerce.APIs.csproj",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
+              "RelativeToolTip": "E-Commerce.APIs\\E-Commerce.APIs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T18:02:15.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductToReturnDto.cs",
+              "DocumentMoniker": "E:\\course\\Talabat.Solution\\Talabat.APIs\\DTOs\\ProductToReturnDto.cs",
+              "ToolTip": "E:\\course\\Talabat.Solution\\Talabat.APIs\\DTOs\\ProductToReturnDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:20:43.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.APIs\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "E-Commerce.APIs\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:15:32.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "E-Commerce.Repository\\GenericRepository.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\GenericRepository.cs",
+              "RelativeToolTip": "E-Commerce.Repository\\GenericRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:06:00.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.APIs\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "E-Commerce.APIs\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T17:57:11.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
