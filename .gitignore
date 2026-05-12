@@ -1,0 +1,20 @@
+# =========================
+# FRONTEND
+# =========================
+Frontend/node_modules
+Frontend/.angular
+Frontend/dist
+
+# =========================
+# BACKEND
+# =========================
+Backend/**/bin
+Backend/**/obj
+Backend/.vs
+
+# =========================
+# GENERAL
+# =========================
+.vscode
+.DS_Store
+Thumbs.db

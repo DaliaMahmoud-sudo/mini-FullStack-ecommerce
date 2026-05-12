@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj",
+      "projectUniqueName": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj",
       "projectName": "E-Commerce.Core",
-      "projectPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj",
+      "projectPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\obj\\",
+      "outputPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

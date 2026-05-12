@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iSFLVh/ifiU=",
+  "dgSpecHash": "b5SlH6szzhc=",
   "success": true,
-  "projectFilePath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj",
+  "projectFilePath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",

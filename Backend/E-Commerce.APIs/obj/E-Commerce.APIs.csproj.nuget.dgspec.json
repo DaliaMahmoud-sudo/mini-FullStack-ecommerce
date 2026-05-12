@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\E-Commerce.APIs.csproj": {}
+    "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.APIs\\E-Commerce.APIs.csproj": {}
   },
   "projects": {
-    "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\E-Commerce.APIs.csproj": {
+    "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.APIs\\E-Commerce.APIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
+        "projectUniqueName": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
         "projectName": "E-Commerce.APIs",
-        "projectPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
+        "projectPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\obj\\",
+        "outputPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.APIs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj": {
-                "projectPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj"
+              "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj": {
+                "projectPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj"
               },
-              "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\E-Commerce.Repository.csproj": {
-                "projectPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\E-Commerce.Repository.csproj"
+              "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Repository\\E-Commerce.Repository.csproj": {
+                "projectPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Repository\\E-Commerce.Repository.csproj"
               }
             }
           }
@@ -535,14 +535,14 @@
         }
       }
     },
-    "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj": {
+    "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj",
+        "projectUniqueName": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj",
         "projectName": "E-Commerce.Core",
-        "projectPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj",
+        "projectPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\obj\\",
+        "outputPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -896,14 +896,14 @@
         }
       }
     },
-    "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\E-Commerce.Repository.csproj": {
+    "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Repository\\E-Commerce.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
+        "projectUniqueName": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
         "projectName": "E-Commerce.Repository",
-        "projectPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
+        "projectPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Repository\\obj\\",
+        "outputPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -924,8 +924,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj": {
-                "projectPath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.Core\\E-Commerce.Core.csproj"
+              "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj": {
+                "projectPath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.Core\\E-Commerce.Core.csproj"
               }
             }
           }

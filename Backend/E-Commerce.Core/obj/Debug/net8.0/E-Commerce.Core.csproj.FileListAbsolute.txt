@@ -20,3 +20,15 @@ D:\iExperts\mini-ecommerce-backend--main\mini-ecommerce-backend--main\E-Commerce
 D:\iExperts\mini-ecommerce-backend--main\mini-ecommerce-backend--main\E-Commerce.Core\obj\Debug\net8.0\refint\E-Commerce.Core.dll
 D:\iExperts\mini-ecommerce-backend--main\mini-ecommerce-backend--main\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.pdb
 D:\iExperts\mini-ecommerce-backend--main\mini-ecommerce-backend--main\E-Commerce.Core\obj\Debug\net8.0\ref\E-Commerce.Core.dll
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\bin\Debug\net8.0\E-Commerce.Core.deps.json
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\bin\Debug\net8.0\E-Commerce.Core.dll
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\bin\Debug\net8.0\E-Commerce.Core.pdb
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.AssemblyInfoInputs.cache
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.AssemblyInfo.cs
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.csproj.CoreCompileInputs.cache
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.sourcelink.json
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.dll
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\refint\E-Commerce.Core.dll
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\E-Commerce.Core.pdb
+D:\mini-FullStack-ecommerce\Backend\E-Commerce.Core\obj\Debug\net8.0\ref\E-Commerce.Core.dll

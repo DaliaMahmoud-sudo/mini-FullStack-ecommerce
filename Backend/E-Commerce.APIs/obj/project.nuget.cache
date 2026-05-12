@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I8SL51coP1o=",
+  "dgSpecHash": "/Z2I3caqahw=",
   "success": true,
-  "projectFilePath": "D:\\iExperts\\mini-ecommerce-backend--main\\mini-ecommerce-backend--main\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
+  "projectFilePath": "D:\\mini-FullStack-ecommerce\\Backend\\E-Commerce.APIs\\E-Commerce.APIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
