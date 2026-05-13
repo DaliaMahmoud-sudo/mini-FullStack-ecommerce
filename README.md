@@ -72,6 +72,15 @@ mini-FullStack-ecommerce
 │   │   ├── layouts
 │   │   ├── shared
 ```
+## Architecture
+
+The backend follows Onion Architecture principles by separating the project into:
+
+- Core Layer → Entities, Interfaces, Business Rules
+- Repository Layer → Data Access & Entity Framework Core
+- API Layer → Controllers, Endpoints, Dependency Injection
+
+This separation improves maintainability, scalability, and clean code organization.
 
 ## ⚙️ Installation & Setup
 
